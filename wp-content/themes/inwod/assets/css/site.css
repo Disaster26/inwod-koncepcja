@@ -314,6 +314,10 @@ body.lb-on{overflow:hidden}
   .siatka{grid-template-columns:1fr}
   .filtry a{padding:9px 12px;font-size:14.5px}
   .grupa{padding-top:52px}
+  .osoby-pelne{grid-template-columns:1fr;gap:32px}
+  .osoby-pelne .osoba{display:grid;grid-template-columns:128px 1fr;column-gap:18px;align-items:start}
+  .osoby-pelne .osoba-zdj{grid-row:1/span 5;margin:0}
+  .osoby-pelne .osoba h3{font-size:19px}
   .osoba h3{font-size:17px}
   .osoba-rola{font-size:14px}
   .kl-lista li{font-size:15px}
